@@ -1,0 +1,12 @@
+.card-title{
+    font-size: 50px;
+    font-family: sans-serif;
+    background-color: rgb(218, 226, 176);
+}
+
+.card-container{
+    width: 70vw;
+    margin: 0 auto;
+    background-color: rgb(236, 13, 13);
+    border-radius: 15px;
+}

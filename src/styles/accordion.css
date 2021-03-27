@@ -1,0 +1,24 @@
+.accordion-item-container{
+    background: #fff;
+    font-size: 18px;
+    border-bottom: 1px solid #ccc;
+    width: 50%;
+    cursor: pointer;
+    position: relative;
+}
+.accordion-question{
+    cursor: pointer;
+    display: inline-block;
+}
+
+.arrow{
+    display: inline-block;
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%) scale(1.1);
+}
+
+.arrow.down{
+    transform: rotateX(180deg) scale(1.1);
+    }
