@@ -1,13 +1,13 @@
-import './App.css';
-import Card from "./components/Card"
-import {Data} from "./components/Data" ;
+import "./App.css";
+import Card from "./components/Card";
+import { Data } from "./components/Data";
 
 function App() {
-    return (
-        <>
-        <Card data={Data}/>
-        </>
-    );
+  return (
+    <div className="app-container">
+      <Card data={Data} />
+    </div>
+  );
 }
 
 export default App;

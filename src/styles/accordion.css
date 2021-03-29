@@ -1,24 +1,98 @@
-.accordion-item-container{
-    background: #fff;
-    font-size: 18px;
-    border-bottom: 1px solid #ccc;
-    width: 50%;
-    cursor: pointer;
-    position: relative;
+.accordion-block {
+  position: relative;
 }
-.accordion-question{
-    cursor: pointer;
-    display: inline-block;
+/* .accordion-underline.underline-open {
+  transform: translateY(-3px);
+  opacity: 0;
+
+  animation: moveUnderline 0.7s ease forwards alternate;
 }
 
-.arrow{
-    display: inline-block;
-    position: absolute;
-    right: 15px;
-    top: 50%;
-    transform: translateY(-50%) scale(1.1);
+@keyframes moveUnderline {
+  from {
+    transform: translateY(-3px);
+    opacity: 0;
+    margin-top: 0;
+  }
+
+  to {
+    margin-top: 3px;
+    opacity: 1;
+    transform: translateY(-1px);
+  }
+} */
+
+.accordion-underline {
+  width: 80%;
+  height: 1px;
+  background-color: #ccc;
+  position: absolute;
+  bottom: 0;
+}
+.accordion-item-container {
+  font-size: 18px;
+  /* border-bottom: 1px solid #ccc; */
+  width: 50%;
+  cursor: pointer;
+  position: relative;
+  width: 80%;
+}
+.accordion-question {
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  color: #27272a;
+  font-weight: 400;
+  margin-bottom: 23px;
+  margin-top: 19px;
 }
 
-.arrow.down{
-    transform: rotateX(180deg) scale(1.1);
-    }
+.accordion-answer {
+  font-size: 15px;
+  color: #524f4f;
+  margin: 0;
+  pointer-events: none;
+  animation: showAnswer 0.5s ease forwards alternate;
+}
+/* .accordion-answer.open {
+  animation: hideAnswer 0.5s ease forwards alternate;
+} */
+
+/* @keyframes hideAnswer {
+  from {
+    padding-top: 5px;
+    padding-bottom: 25px;
+  }
+
+  to {
+    padding: 0;
+  }
+} */
+@keyframes showAnswer {
+  to {
+    padding-top: 5px;
+    padding-bottom: 25px;
+  }
+}
+
+.accordion-question.bold {
+  font-weight: bold;
+  color: rgb(68, 64, 64);
+}
+
+.arrow {
+  display: inline-block;
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-80%) scale(1.1);
+  transition: 0.3s;
+}
+
+.arrow.down {
+  transform: rotate(-180deg) scale(1.1) translateY(6px);
+}
+
+.accordion-question:hover {
+  color: #f47c57;
+}
