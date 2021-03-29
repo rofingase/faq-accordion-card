@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/faq-accordion-card/static/css/main.45677275.chunk.css",
+    "main.js": "/faq-accordion-card/static/js/main.8e36ffc3.chunk.js",
+    "main.js.map": "/faq-accordion-card/static/js/main.8e36ffc3.chunk.js.map",
+    "runtime-main.js": "/faq-accordion-card/static/js/runtime-main.8ea0ecc1.js",
+    "runtime-main.js.map": "/faq-accordion-card/static/js/runtime-main.8ea0ecc1.js.map",
+    "static/js/2.13f3dec8.chunk.js": "/faq-accordion-card/static/js/2.13f3dec8.chunk.js",
+    "static/js/2.13f3dec8.chunk.js.map": "/faq-accordion-card/static/js/2.13f3dec8.chunk.js.map",
+    "index.html": "/faq-accordion-card/index.html",
+    "static/css/main.45677275.chunk.css.map": "/faq-accordion-card/static/css/main.45677275.chunk.css.map",
+    "static/js/2.13f3dec8.chunk.js.LICENSE.txt": "/faq-accordion-card/static/js/2.13f3dec8.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8ea0ecc1.js",
+    "static/js/2.13f3dec8.chunk.js",
+    "static/css/main.45677275.chunk.css",
+    "static/js/main.8e36ffc3.chunk.js"
+  ]
+}
