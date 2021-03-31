@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/faq-accordion-card/static/css/main.5549d84c.chunk.css",
+    "main.css": "/faq-accordion-card/static/css/main.8cb7ce9a.chunk.css",
     "main.js": "/faq-accordion-card/static/js/main.8e4f5587.chunk.js",
     "main.js.map": "/faq-accordion-card/static/js/main.8e4f5587.chunk.js.map",
     "runtime-main.js": "/faq-accordion-card/static/js/runtime-main.8ea0ecc1.js",
@@ -8,13 +8,13 @@
     "static/js/2.13f3dec8.chunk.js": "/faq-accordion-card/static/js/2.13f3dec8.chunk.js",
     "static/js/2.13f3dec8.chunk.js.map": "/faq-accordion-card/static/js/2.13f3dec8.chunk.js.map",
     "index.html": "/faq-accordion-card/index.html",
-    "static/css/main.5549d84c.chunk.css.map": "/faq-accordion-card/static/css/main.5549d84c.chunk.css.map",
+    "static/css/main.8cb7ce9a.chunk.css.map": "/faq-accordion-card/static/css/main.8cb7ce9a.chunk.css.map",
     "static/js/2.13f3dec8.chunk.js.LICENSE.txt": "/faq-accordion-card/static/js/2.13f3dec8.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.8ea0ecc1.js",
     "static/js/2.13f3dec8.chunk.js",
-    "static/css/main.5549d84c.chunk.css",
+    "static/css/main.8cb7ce9a.chunk.css",
     "static/js/main.8e4f5587.chunk.js"
   ]
 }
