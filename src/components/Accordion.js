@@ -5,10 +5,10 @@ const Accordion = ({ data, toggleAccordion, id, activeIndex }) => {
 
   const { question, answer } = data;
   const isCurrentElement = id === activeIndex;
-  const showAnswer = isCurrentElement ? <p className={`accordion-answer ${isCurrentElement ? "open" : ""}`}>{answer}</p> : "";
+  const addOpenAccordionStyles = isCurrentElement ? "open" : "";
   const addReverseClass = isCurrentElement ? "down" : ""; //"down" это класс, который добавляется на элемент, на который кликнул пользователь
-  const addBold = isCurrentElement ? "bold" : ""; 
-  const accordionUnderline = isCurrentElement ? "underline-open" : ""; 
+  const addBold = isCurrentElement ? "bold" : "";
+  const accordionUnderline = isCurrentElement ? "underline-open" : "";
 
   return (
     <div className="accordion-block">
@@ -18,12 +18,12 @@ const Accordion = ({ data, toggleAccordion, id, activeIndex }) => {
       >
         <p className={`accordion-question ${addBold}`}>{question}</p>
         <img
-          src="/images/icon-arrow-down.svg"
+          src="./images/icon-arrow-down.svg"
           alt="arrow"
           className={`arrow ${addReverseClass}`}
         />
       </div>
-      {showAnswer}
+      <p className={`accordion-answer ${addOpenAccordionStyles}`}>{answer}</p>
       <div className={`accordion-underline ${accordionUnderline}`}></div>
     </div>
   );
